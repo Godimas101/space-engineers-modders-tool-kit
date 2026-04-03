@@ -13,7 +13,7 @@ A curated collection of free Windows tools for Space Engineers modders and playe
 | **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [Download from Releases](https://github.com/Godimas101/universal-image-converter/releases/latest) |
 | **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [Download from Releases](https://github.com/Godimas101/universal-audio-converter/releases/latest) |
 | **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [`ClaudeUsageMonitorSetup-v1.0.0.exe`](ClaudeUsageMonitorSetup-v1.0.0.exe) |
-| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Install from GitHub](https://github.com/Godimas101/se-claude-skill) |
+| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Download from Releases](https://github.com/Godimas101/se-claude-skill/releases/latest) |
 
 ---
 
@@ -79,7 +79,7 @@ If you use [Claude Code](https://claude.ai/claude-code), this skill turns Claude
 - programmable block scripts
 - general mod troubleshooting
 
-**Install:** [Godimas101/se-claude-skill](https://github.com/Godimas101/se-claude-skill)
+**Install:** [se-claude-skill releases](https://github.com/Godimas101/se-claude-skill/releases/latest)
 
 ---
 
