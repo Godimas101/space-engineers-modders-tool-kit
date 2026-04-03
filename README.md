@@ -1,14 +1,35 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0B1021,45:2563EB,100:7C3AED&text=Space%20Engineers%20Modder%27s%20Tool%20Kit&fontColor=ffffff&fontAlignY=35&fontSize=32&desc=Free%20tools%20for%20builders,%20scripters,%20and%20modders&descAlignY=57&descSize=18" />
+</p>
+
 # 🚀 Space Engineers Modder's Tool Kit
 
-> **Everything you need to mod Space Engineers — in one place.**
+> **A grab-and-go toolbox for Space Engineers modders — converters, helpers, and a few gloriously practical sidekicks.**
 
-A curated collection of free tools for Space Engineers modders and players. No Python, no dependencies, no nonsense — just download and run.
+A curated collection of free Windows tools for Space Engineers modders and players. No Python, no dependency wrangling, no nonsense — just download what you need and get building.
+
+## ✨ What's in the kit
+
+| Tool | Best for | Download |
+|---|---|---|
+| **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [`SE Image Converter.exe`](SE%20Image%20Converter.exe) |
+| **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [`SE Audio Converter.exe`](SE%20Audio%20Converter.exe) |
+| **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [`ClaudeUsageMonitorSetup-v1.0.0.exe`](ClaudeUsageMonitorSetup-v1.0.0.exe) |
+| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Install from GitHub](https://github.com/Godimas101/claude-skills/tree/main/space-engineers) |
 
 ---
 
-## 🖼️ SE Image Converter  `v1.3`
+## 🚀 Quick Start
 
-Convert images for use in Space Engineers LCD screens.
+1. Download the tool you want from the list below.
+2. Run the `.exe` on Windows.
+3. If you're working on audio or mod scripts, keep your `SpaceEngineersModSDK` folder handy.
+
+---
+
+## 🖼️ SE Image Converter `v1.3`
+
+Turn images into Space Engineers-ready assets for LCDs and texture mods.
 
 | Tool | What it does |
 |------|-------------|
@@ -19,29 +40,29 @@ Convert images for use in Space Engineers LCD screens.
 
 ---
 
-## 🔊 SE Audio Converter  `v1.1`
+## 🔊 SE Audio Converter `v1.1`
 
-Convert and edit audio for use in Space Engineers mods.
+Take the pain out of mod audio prep — convert, edit, and package sounds without juggling a dozen tools.
 
 | Tool | What it does |
 |------|-------------|
-| **Audio Converter** | Converts any audio format to WAV or XWM via ffmpeg + xWMAEncode |
-| **Audio Editor** | Visual WAV editor — trim, fade, normalize, channel mix, undo |
+| **Audio Converter** | Converts any audio format to WAV or XWM via `ffmpeg` + `xWMAEncode` |
+| **Audio Editor** | Visual WAV editor for trim, fade, normalize, channel mix, and undo |
 | **SBC Generator** | Generates `Audio.sbc` and `SoundBlock.sbc` ready to drop into a mod |
 
-> ⚠️ Requires [`ffmpeg.exe`](https://ffmpeg.org/download.html) for conversion. `xWMAEncode.exe` is included in your Space Engineers Mod SDK (`SpaceEngineersModSDK\Tools\`).
+> ⚠️ Requires [`ffmpeg.exe`](https://ffmpeg.org/download.html) for conversion. `xWMAEncode.exe` is included with the Space Engineers Mod SDK in `SpaceEngineersModSDK\Tools\`.
 
 **Download:** [`SE Audio Converter.exe`](SE%20Audio%20Converter.exe)
 
 ---
 
-## 🟠 Claude Usage Monitor  `v1.0`
+## 🟠 Claude Usage Monitor `v1.0`
 
-A Windows system tray widget that shows your Claude Code usage at a glance. Amber phosphor CRT aesthetic. Always on top. Knows when you've locked your screen.
+A Windows system tray companion for Claude Code sessions. Not Space Engineers-specific, but extremely handy when you're deep in a modding sprint and want your usage visible at a glance.
 
-- SESSION (5H) and WEEKLY (7D) usage bars
+- SESSION (`5H`) and WEEKLY (`7D`) usage bars
 - Depleting time lines and pip-edge cursors
-- System tray icon with live session %
+- System tray icon with live session percentage
 - Fullscreen-aware — hides when you're in-game
 - Multiple colour themes
 
@@ -51,7 +72,14 @@ A Windows system tray widget that shows your Claude Code usage at a glance. Ambe
 
 ## 🧠 Claude SE Modding Skill
 
-If you use [Claude Code](https://claude.ai/claude-code), this skill turns Claude into a Space Engineers modding expert — C# text surface scripts, SBC definitions, MES encounters, AI bots, PB scripts, and more.
+If you use [Claude Code](https://claude.ai/claude-code), this skill turns Claude into a Space Engineers modding specialist for:
+
+- C# text surface scripts
+- `SBC` definitions
+- MES encounters
+- AI bots and AI-enabled behavior
+- programmable block scripts
+- general mod troubleshooting
 
 **Install:** [Godimas101/claude-skills — space-engineers](https://github.com/Godimas101/claude-skills/tree/main/space-engineers)
 
@@ -59,7 +87,7 @@ If you use [Claude Code](https://claude.ai/claude-code), this skill turns Claude
 
 ## 🧡 Support
 
-All tools are free and always will be. If they've saved you time on your next mod, consider supporting on Patreon — it helps keep the updates and new tools coming.
+All tools here are free and always will be. If they save you time on your next modding rabbit hole, consider supporting on Patreon — it helps keep the updates and new tools coming.
 
 [![Support on Patreon](https://raw.githubusercontent.com/Godimas101/personal-projects/main/patreon/images/buttons/patreon-medium.png)](https://patreon.com/Godimas101)
 
