@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0B1021,45:2563EB,100:7C3AED&text=Space%20Engineers%20Modder%27s%20Tool%20Kit&fontColor=ffffff&fontAlignY=35&fontSize=32&desc=Free%20tools%20for%20builders,%20scripters,%20and%20modders&descAlignY=57&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:140809,45:B91C1C,100:EF4444&text=Space%20Engineers%20Modder%27s%20Tool%20Kit&fontColor=ffffff&fontAlignY=35&fontSize=32&desc=Free%20tools%20for%20builders,%20scripters,%20and%20modders&descAlignY=57&descSize=18" />
 </p>
 
 > **A grab-and-go toolbox for Space Engineers modders — converters, helpers, and a few gloriously practical sidekicks.**
@@ -10,10 +10,10 @@ A curated collection of free Windows tools for Space Engineers modders and playe
 
 | Tool | Best for | Download |
 |---|---|---|
-| **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [`SE Image Converter.exe`](SE%20Image%20Converter.exe) |
-| **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [`SE Audio Converter.exe`](SE%20Audio%20Converter.exe) |
+| **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [Download from Releases](https://github.com/Godimas101/universal-image-converter/releases/latest) |
+| **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [Download from Releases](https://github.com/Godimas101/universal-audio-converter/releases/latest) |
 | **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [`ClaudeUsageMonitorSetup-v1.0.0.exe`](ClaudeUsageMonitorSetup-v1.0.0.exe) |
-| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Install from GitHub](https://github.com/Godimas101/claude-skills/tree/main/space-engineers) |
+| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Install from GitHub](https://github.com/Godimas101/se-claude-skill) |
 
 ---
 
@@ -34,7 +34,7 @@ Turn images into Space Engineers-ready assets for LCDs and texture mods.
 | **Image to DDS** | Converts images to BC7 DDS textures for LCD texture mods |
 | **Image to LCD Text** | Converts images to colour-code strings — paste directly into any LCD. No mods required. |
 
-**Download:** [`SE Image Converter.exe`](SE%20Image%20Converter.exe)
+**Download:** [SE Image Converter releases](https://github.com/Godimas101/universal-image-converter/releases/latest)
 
 ---
 
@@ -50,7 +50,7 @@ Take the pain out of mod audio prep — convert, edit, and package sounds withou
 
 > ⚠️ Requires [`ffmpeg.exe`](https://ffmpeg.org/download.html) for conversion. `xWMAEncode.exe` is included with the Space Engineers Mod SDK in `SpaceEngineersModSDK\Tools\`.
 
-**Download:** [`SE Audio Converter.exe`](SE%20Audio%20Converter.exe)
+**Download:** [SE Audio Converter releases](https://github.com/Godimas101/universal-audio-converter/releases/latest)
 
 ---
 
@@ -79,7 +79,7 @@ If you use [Claude Code](https://claude.ai/claude-code), this skill turns Claude
 - programmable block scripts
 - general mod troubleshooting
 
-**Install:** [Godimas101/claude-skills — space-engineers](https://github.com/Godimas101/claude-skills/tree/main/space-engineers)
+**Install:** [Godimas101/se-claude-skill](https://github.com/Godimas101/se-claude-skill)
 
 ---
 
