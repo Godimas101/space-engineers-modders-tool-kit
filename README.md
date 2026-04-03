@@ -12,7 +12,7 @@ A curated collection of free Windows tools for Space Engineers modders and playe
 |---|---|---|
 | **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [Download from Releases](https://github.com/Godimas101/universal-image-converter/releases/latest) |
 | **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [Download from Releases](https://github.com/Godimas101/universal-audio-converter/releases/latest) |
-| **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [`ClaudeUsageMonitorSetup-v1.0.0.exe`](ClaudeUsageMonitorSetup-v1.0.0.exe) |
+| **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [Download from Releases](https://github.com/Godimas101/claude-usage-monitor/releases/latest) |
 | **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Download from Releases](https://github.com/Godimas101/se-claude-skill/releases/latest) |
 
 ---
@@ -64,7 +64,7 @@ A Windows system tray companion for Claude Code sessions. Not Space Engineers-sp
 - Fullscreen-aware — hides when you're in-game
 - Multiple colour themes
 
-**Download:** [`ClaudeUsageMonitorSetup-v1.0.0.exe`](ClaudeUsageMonitorSetup-v1.0.0.exe)
+**Download:** [Claude Usage Monitor releases](https://github.com/Godimas101/claude-usage-monitor/releases/latest)
 
 ---
 
