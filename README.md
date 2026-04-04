@@ -8,12 +8,12 @@ A curated collection of free Windows tools for Space Engineers modders and playe
 
 ## ✨ What's in the kit
 
-| Tool | Best for | Download |
-|---|---|---|
-| **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [Download from Releases](https://github.com/Godimas101/universal-image-converter/releases/latest) |
-| **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [Download from Releases](https://github.com/Godimas101/universal-audio-converter/releases/latest) |
-| **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [Download from Releases](https://github.com/Godimas101/claude-usage-monitor/releases/latest) |
-| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Download from Releases](https://github.com/Godimas101/se-claude-skill/releases/latest) |
+| Tool | Best for | Download | Docs |
+|---|---|---|---|
+| **SE Image Converter** `v1.3` | DDS textures and LCD-ready image strings | [Download from Releases](https://github.com/Godimas101/universal-image-converter/releases/latest) | [README](https://github.com/Godimas101/universal-image-converter) |
+| **SE Audio Converter** `v1.1` | audio conversion, editing, and `SBC` generation | [Download from Releases](https://github.com/Godimas101/universal-audio-converter/releases/latest) | [README](https://github.com/Godimas101/universal-audio-converter) |
+| **Claude Usage Monitor** `v1.0` | live desktop tracking for Claude Code sessions | [Download from Releases](https://github.com/Godimas101/claude-usage-monitor/releases/latest) | [README](https://github.com/Godimas101/claude-usage-monitor) |
+| **Claude SE Modding Skill** | AI help for Space Engineers scripting and modding | [Download from Releases](https://github.com/Godimas101/se-claude-skill/releases/latest) | [README](https://github.com/Godimas101/se-claude-skill) |
 
 ---
 
@@ -25,7 +25,7 @@ A curated collection of free Windows tools for Space Engineers modders and playe
 
 ---
 
-## 🖼️ SE Image Converter `v1.3`
+## 🖼️ SE Image Converter
 
 Turn images into Space Engineers-ready assets for LCDs and texture mods.
 
@@ -34,11 +34,11 @@ Turn images into Space Engineers-ready assets for LCDs and texture mods.
 | **Image to DDS** | Converts images to BC7 DDS textures for LCD texture mods |
 | **Image to LCD Text** | Converts images to colour-code strings — paste directly into any LCD. No mods required. |
 
-**Download:** [SE Image Converter releases](https://github.com/Godimas101/universal-image-converter/releases/latest)
+**Download:** [SE Image Converter releases](https://github.com/Godimas101/universal-image-converter/releases/latest) · **Docs:** [README](https://github.com/Godimas101/universal-image-converter)
 
 ---
 
-## 🔊 SE Audio Converter `v1.1`
+## 🔊 SE Audio Converter
 
 Take the pain out of mod audio prep — convert, edit, and package sounds without juggling a dozen tools.
 
@@ -50,11 +50,11 @@ Take the pain out of mod audio prep — convert, edit, and package sounds withou
 
 > ⚠️ Requires [`ffmpeg.exe`](https://ffmpeg.org/download.html) for conversion. `xWMAEncode.exe` is included with the Space Engineers Mod SDK in `SpaceEngineersModSDK\Tools\`.
 
-**Download:** [SE Audio Converter releases](https://github.com/Godimas101/universal-audio-converter/releases/latest)
+**Download:** [SE Audio Converter releases](https://github.com/Godimas101/universal-audio-converter/releases/latest) · **Docs:** [README](https://github.com/Godimas101/universal-audio-converter)
 
 ---
 
-## 🟠 Claude Usage Monitor `v1.0`
+## 🟠 Claude Usage Monitor
 
 A Windows system tray companion for Claude Code sessions. Not Space Engineers-specific, but extremely handy when you're deep in a modding sprint and want your usage visible at a glance.
 
@@ -64,7 +64,7 @@ A Windows system tray companion for Claude Code sessions. Not Space Engineers-sp
 - Fullscreen-aware — hides when you're in-game
 - Multiple colour themes
 
-**Download:** [Claude Usage Monitor releases](https://github.com/Godimas101/claude-usage-monitor/releases/latest)
+**Download:** [Claude Usage Monitor releases](https://github.com/Godimas101/claude-usage-monitor/releases/latest) · **Docs:** [README](https://github.com/Godimas101/claude-usage-monitor)
 
 ---
 
@@ -79,7 +79,7 @@ If you use [Claude Code](https://claude.ai/claude-code), this skill turns Claude
 - programmable block scripts
 - general mod troubleshooting
 
-**Install:** [se-claude-skill releases](https://github.com/Godimas101/se-claude-skill/releases/latest)
+**Install:** [se-claude-skill releases](https://github.com/Godimas101/se-claude-skill/releases/latest) · **Docs:** [README](https://github.com/Godimas101/se-claude-skill)
 
 ---
 
