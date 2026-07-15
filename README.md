@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:140809,45:B91C1C,100:EF4444&text=Space%20Engineers%20Modder%27s%20Tool%20Kit&fontColor=ffffff&fontAlignY=35&fontSize=32&desc=Free%20tools%20for%20builders,%20scripters,%20and%20modders&descAlignY=57&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:140809,45:B91C1C,100:EF4444&text=Space%20Engineers%20Modder%27s%20Tool%20Kit&fontColor=ffffff&fontAlignY=42&fontSize=30&desc=Free%20tools%20for%20builders,%20scripters,%20and%20modders&descAlignY=68&descSize=17" />
 </p>
 
 > **A grab-and-go toolbox for Space Engineers modders — converters, helpers, and a few gloriously practical sidekicks.**
