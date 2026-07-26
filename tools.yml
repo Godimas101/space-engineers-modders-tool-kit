@@ -1,0 +1,23 @@
+# The tools shown in the "What's in the kit" table on the README.
+#
+# This is the ONLY place to edit the tool list. A weekly workflow
+# (.github/workflows/sync-readme.yml) regenerates the README table from each
+# repo's latest GitHub Release, so the version badges stay current on their own.
+#
+# Add a tool = add an entry here. Remove a tool = delete its entry.
+
+- repo: Godimas101/universal-image-converter
+  name: SE Image Converter
+  best_for: DDS textures and LCD-ready image strings
+
+- repo: Godimas101/universal-audio-converter
+  name: SE Audio Converter
+  best_for: audio conversion, editing, and SBC generation
+
+- repo: Godimas101/claude-usage-monitor
+  name: Claude Usage Monitor
+  best_for: live desktop tracking for Claude Code sessions
+
+- repo: Godimas101/se-claude-skill
+  name: Claude SE Modding Skill
+  best_for: AI help for Space Engineers scripting and modding

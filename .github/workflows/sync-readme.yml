@@ -1,0 +1,84 @@
+name: Sync toolkit README
+
+# Regenerates the tool table in README.md from each tool's latest GitHub
+# Release, so the version badges never go stale. Runs weekly and on demand.
+# Edit tools.yml to add/remove a tool — never hand-edit the table (it's
+# rewritten between the <!-- tools:start --> / <!-- tools:end --> markers).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"      # Mondays at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install --quiet pyyaml
+
+      - name: Regenerate README table from latest releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 <<'PY'
+          import os, json, re, pathlib, urllib.request, yaml
+
+          token = os.environ["GH_TOKEN"]
+
+          def latest_tag(repo):
+              req = urllib.request.Request(
+                  f"https://api.github.com/repos/{repo}/releases/latest",
+                  headers={"Authorization": f"Bearer {token}",
+                           "Accept": "application/vnd.github+json",
+                           "User-Agent": "toolkit-readme-sync"})
+              try:
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      return json.load(r).get("tag_name", "") or ""
+              except Exception as e:
+                  print(f"  {repo}: no release / error ({e})")
+                  return ""
+
+          tools = yaml.safe_load(pathlib.Path("tools.yml").read_text(encoding="utf-8"))
+
+          rows = ["| Tool | Best for | Download | Docs |", "|---|---|---|---|"]
+          for t in tools:
+              repo = t["repo"]
+              tag  = latest_tag(repo)
+              ver  = f" `{tag}`" if tag else ""
+              rows.append(
+                  f"| **{t['name']}**{ver} | {t['best_for']} | "
+                  f"[Download from Releases](https://github.com/{repo}/releases/latest) | "
+                  f"[README](https://github.com/{repo}) |")
+          table = "\n".join(rows)
+
+          readme = pathlib.Path("README.md")
+          txt = readme.read_text(encoding="utf-8")
+          new, n = re.subn(
+              r"<!-- tools:start -->.*?<!-- tools:end -->",
+              "<!-- tools:start -->\n" + table + "\n<!-- tools:end -->",
+              txt, count=1, flags=re.S)
+          if n == 0:
+              raise SystemExit("Could not find the <!-- tools:start/end --> markers in README.md")
+          readme.write_text(new, encoding="utf-8")
+          print("README table regenerated")
+          PY
+
+          if [[ -z "$(git status --porcelain README.md)" ]]; then
+            echo "README already up to date — nothing to commit."
+            exit 0
+          fi
+          git config user.name "toolkit-bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "README: sync tool versions from latest releases"
+          git push
